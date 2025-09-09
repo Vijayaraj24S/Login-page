@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+form>h2{
+    color:rgb(197, 127, 36);
+     /* text-align: center; */
+     margin-bottom: 10px;
+}
+.o{
+    height: 100vh;
+    width:100%;
+    background-color: rgb(1, 1, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.i{
+    
+    height: 50vh;
+    width:50vw;
+    border: 2px solid grey;
+    border-radius: 20px;;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.i1{
+    width: 50%;
+    color: antiquewhite; 
+    background-color: rgb(4, 4, 41);
+}
+.i2{
+    
+    font-size: 20px;
+    width: 50%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form> button{
+    margin:20px auto;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(197, 146, 52);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:80%;
+}
+
+form>label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form>input{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form>h2,form>p{
+    width:100%;
+    text-align: center;
+}
+
+form>p>span{
+    text-decoration: underline;
+    color:orange;
+}
+.i1>img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.i1 {
+  background-image: url('Copilot_20250909_201528.png'); 
+  background-size:cover;       
+  background-repeat: no-repeat;   
+  background-position: center;    
+}
+
+.o>h2{
+    margin-bottom: 20px;
+}
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #4e00c2, #8e2de2, #ff6ec4);
+  background-size: 200%;
+  animation: shimmer 4s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% }
+  100% { background-position: 100% }
+}
+
