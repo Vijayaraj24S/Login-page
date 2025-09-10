@@ -20,7 +20,7 @@ form>h2{
 }
 .i{
     
-    height: 50vh;
+    height:50vh;
     width:50vw;
     border: 2px solid grey;
     border-radius: 20px;;
@@ -35,24 +35,25 @@ form>h2{
 }
 .i2{
     
-    font-size: 20px;
+    font-size: 15px;
     width: 50%;
     background-color:white;
     display:flex;
     justify-content: center;
     align-items: center;
     
+    
 }
 
 form> button{
-    margin:20px auto;
+    margin:10px auto;
     display: block;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 5px;
     background-color: rgb(197, 146, 52);
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
 
 }
 
@@ -71,10 +72,10 @@ form>label{
 form>input{
     width: 100%;
     padding:10px;
-    margin-bottom: 5px;
+    margin-bottom: -10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 form>h2,form>p{
@@ -119,4 +120,3 @@ form>p>span{
   0% { background-position: 0% }
   100% { background-position: 100% }
 }
-
